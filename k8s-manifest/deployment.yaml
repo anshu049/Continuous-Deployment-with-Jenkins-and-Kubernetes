@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: linux_tweet_app
+  name: linux-tweet-app
   labels:
     app: app
 spec:
@@ -15,7 +15,7 @@ spec:
         app: app
     spec:
       containers:
-        - name: linux_tweet_app-container
+        - name: linux-tweet-app-container
           image: anshuhtwt/linux_tweet_app
           ports:
             - containerPort: 80
