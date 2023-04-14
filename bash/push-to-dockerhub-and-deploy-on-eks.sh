@@ -15,5 +15,4 @@ docker build -t anshuhtwt/${image1}:${tag1}
 docker push anshuhtwt/${image1}:${tag1}
 
 # apply yaml file
-kubectl apply -R -f /var/lib/jenkins/workspace/linux-tweet-app/bash/push-to-dockerhub-and-deploy-on-eks.sh
 kubectl apply -R -f /var/lib/jenkins/workspace/linux-tweet-app/k8s-manifest/
