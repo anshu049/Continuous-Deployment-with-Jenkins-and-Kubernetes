@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: linux-tweet-app-container
-          image: anshuhtwt/linux-tweet-app
+          image: ${REPOSITORY_TAG}
           ports:
             - containerPort: 80
           resources:
