@@ -3,3 +3,6 @@
 * First we need to create a VPC on AWS
 * Install Kubernetes Cluster inside VPC
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+**INSTALLATION PART**
