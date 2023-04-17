@@ -36,10 +36,5 @@
 **PIPELINE SETUP**
 <br> 1)Create a new job and select Multibranch Pipeline. <br>
 <br> <img width="1438" alt="Screenshot 2023-04-17 at 11 40 12 AM" src="https://user-images.githubusercontent.com/95365748/232398828-07c999eb-f818-44fa-89d3-852080530534.png"> <br>
-
-
-
-
-
-
-
+<br> 2)Add github url and save. <br>
+<br> <img width="1437" alt="Screenshot 2023-04-17 at 11 45 01 AM" src="https://user-images.githubusercontent.com/95365748/232400122-1e6a33d0-6723-42e1-af37-f277281cb040.png"> <br>
