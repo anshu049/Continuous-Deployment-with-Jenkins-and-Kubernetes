@@ -41,5 +41,7 @@
 <br> 3)If everything goes right and build is successful then we can see the output of different stages of Jenkinsfile. <br>
 <br> <img width="1439" alt="Screenshot 2023-04-17 at 11 49 39 AM" src="https://user-images.githubusercontent.com/95365748/232401270-4a916469-e7ab-4818-a057-f41882f0dc07.png"> <br>
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-
+**EXPLANATION OF JENKINSFILE**
