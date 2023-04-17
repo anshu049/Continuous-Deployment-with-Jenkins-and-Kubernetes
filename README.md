@@ -28,4 +28,4 @@
 <br> 5)Configure AWS. <br>
 <br> 6)Intergrate Kubernetes with Jenkins using kube-config file. <br>
 <br> 7)Add docker hub credentials. <br>
-<img width="1436" alt="Screenshot 2023-04-17 at 11 35 31 AM" src="https://user-images.githubusercontent.com/95365748/232397693-8c64d246-03f6-4b7f-8ac6-7c56595fa15a.png">
+<br> <img width="1436" alt="Screenshot 2023-04-17 at 11 35 31 AM" src="https://user-images.githubusercontent.com/95365748/232397693-8c64d246-03f6-4b7f-8ac6-7c56595fa15a.png"> <br>
