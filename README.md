@@ -6,9 +6,9 @@
 
 
 **INSTALLATION PART** <br>
-1)Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins.
-2)Connect to instance and install Jenkins, Kubectl, AWS-CLI, Git and Docker.
-3)Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub.
+1)Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins. <br>
+2)Connect to instance and install Jenkins, Kubectl, AWS-CLI, Git and Docker. <br>
+3)Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub. <br>
 3)Install these plugins
 - Docker
 - Docker Pipeline
