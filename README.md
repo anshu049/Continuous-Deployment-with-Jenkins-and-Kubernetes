@@ -1,5 +1,5 @@
 <br> **PROJECT DETAILS** <br>
-* I have created a CI/CD Pipeline for an app which basically let you make a tweet from your twitter account.
+- I have created a CI/CD Pipeline for an app which basically let you make a tweet from your twitter account.
 - Jenkins triggers build whenever there is any change made in Master branch on github repo.
 - New docker image is build with Dockerfile and pushed to docker hub by jenkins.
 - Jenkins install kubectl on worker nodes of k8s cluster.
