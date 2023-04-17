@@ -67,3 +67,9 @@
 <br> * Stage 1: Jenkins will build new docker image with the latest changes made in github repo. <br>
 <br> * Stage 2: Jenkins will install kubectl on worker nodes to apply yaml files. <br>
 <br> * Stage 3: Jenkins will deploy the deployment.yaml file into k8s cluster's worker node. <br>
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+<br> **APP** <br>
+<br> <img width="1440" alt="Screenshot 2023-04-17 at 12 30 14 PM" src="https://user-images.githubusercontent.com/95365748/232408916-52826690-d763-4beb-9b5b-1ba1c7b3e236.png"> <br>
