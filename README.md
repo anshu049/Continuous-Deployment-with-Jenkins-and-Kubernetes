@@ -1,6 +1,10 @@
 **PROJECT DETAILS**
 * I have created a CI/CD Pipeline for an app which basically let you make a tweet from your twitter account.
-* Jenkins triggers build whenever there is any change made in Master branch on github repo and build new docker image and push it to docker hub
+* 1)Jenkins triggers build whenever there is any change made in Master branch on github repo.
+* 2)New docker image is build with Dockerfile and pushed to docker hub by jenkins.
+* 3)Jenkins install kubectl on worker nodes of k8s cluster.
+* 4)And then jenkins deploy it on k8s cluster's worker node with deployment.yaml file.
+* 5)We can use Ingress-Controller but this app only has single service exposed to internet that is why I have used LoadBalancer as a service type and exposed it directly on load balancer.
 
 
 **SETUP OVERVIEW**
