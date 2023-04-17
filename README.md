@@ -10,7 +10,7 @@
 <br> 2)Connect to instance and install Jenkins, Kubectl, AWS-CLI, Git and Docker. <br>
 <br> 3)Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub. <br>
 <br> 3)Install these plugins
-Docker
+- Docker
 - Docker Pipeline
 - Kubernetes
 - Kuberneets Credentials
