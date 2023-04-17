@@ -29,3 +29,17 @@
 <br> 6)Intergrate Kubernetes with Jenkins using kube-config file. <br>
 <br> 7)Add docker hub credentials. <br>
 <br> <img width="1436" alt="Screenshot 2023-04-17 at 11 35 31 AM" src="https://user-images.githubusercontent.com/95365748/232397693-8c64d246-03f6-4b7f-8ac6-7c56595fa15a.png"> <br>
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+**PIPELINE SETUP**
+<br> 1)Create a new job and select Multibranch Pipeline. <br>
+<br> <img width="1438" alt="Screenshot 2023-04-17 at 11 40 12 AM" src="https://user-images.githubusercontent.com/95365748/232398828-07c999eb-f818-44fa-89d3-852080530534.png"> <br>
+
+
+
+
+
+
+
