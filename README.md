@@ -9,6 +9,14 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
+**OUTCOME OF PROJECT**
+* Provided automation where CI/CD pipeline is to deliver software changes quickly and efficiently, reducing the time it takes to bring new features live.
+* By automating repetitive tasks, it helped to reduce the costs associated with software development and deployment.
+* In the event of issues or bugs, it can help teams quickly identify and resolve these issues, reducing downtime and improving the overall user experience.
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
 **SETUP OVERVIEW**
 * First we need to create a VPC on AWS
 * Install Kubernetes Cluster inside VPC
