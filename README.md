@@ -6,6 +6,8 @@
 * 4)And then jenkins deploy it on k8s cluster's worker node with deployment.yaml file.
 * 5)We can use Ingress-Controller but this app only has single service exposed to internet that is why I have used LoadBalancer as a service type and exposed it directly on load balancer.
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 **SETUP OVERVIEW**
 * First we need to create a VPC on AWS
