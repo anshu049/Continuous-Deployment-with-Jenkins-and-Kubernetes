@@ -43,7 +43,7 @@
 <br> 1)Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub. <br>
 <br> 2)Add jenkins user to sudoers file so that password is not asked while performing some tasks by jenkins user. <br>
 <br> 3)To switch to jenkins user make some changes inside /etc/passwd file and copy env-variables files into present home directory of user. <br>
-<br> 4)Switch to jenkins user <br>
+<br> 4)Switch to jenkins user. <br>
 <br> 5)Configure AWS. <br>
 <br> 6)Intergrate Kubernetes with Jenkins using kube-config file. <br>
 <br> 7)Add docker hub credentials. <br>
