@@ -1,4 +1,4 @@
-**PROJECT DETAILS**
+<br> **PROJECT DETAILS** <br>
 * I have created a CI/CD Pipeline for an app which basically let you make a tweet from your twitter account.
 * 1)Jenkins triggers build whenever there is any change made in Master branch on github repo.
 * 2)New docker image is build with Dockerfile and pushed to docker hub by jenkins.
@@ -9,7 +9,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-**OUTCOME OF PROJECT**
+<br> **OUTCOME OF PROJECT** <br>
 * Provided automation where CI/CD pipeline is to deliver software changes quickly and efficiently, reducing the time it takes to bring new features live.
 * By automating repetitive tasks, it helped to reduce the costs associated with software development and deployment.
 * In the event of issues or bugs, it can help teams quickly identify and resolve these issues, reducing downtime and improving the overall user experience.
@@ -17,7 +17,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-**SETUP OVERVIEW**
+<br> **SETUP OVERVIEW** <br>
 * First we need to create a VPC on AWS
 * Install Kubernetes Cluster inside VPC
 <img width="1024" alt="Screenshot 2023-04-17 at 10 12 35 AM" src="https://user-images.githubusercontent.com/95365748/232380118-2e8388a2-bf20-4135-8c48-e1bf03559cf2.png">
@@ -26,7 +26,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-**INSTALLATION PART** <br>
+<br> **INSTALLATION PART** <br>
 <br> 1)Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins. <br>
 <br> 2)Connect to instance and install Jenkins, Kubectl, AWS-CLI, Git and Docker. <br>
 <br> 3)Install these plugins
@@ -39,7 +39,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-**CONFIGURATION PART** <br>
+<br> **CONFIGURATION PART** <br>
 <br> 1)Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub. <br>
 <br> 2)Add jenkins user to sudoers file so that password is not asked while performing some tasks by jenkins user. <br>
 <br> 3)To switch to jenkins user make some changes inside /etc/passwd file and copy env-variables files into present home directory of user. <br>
@@ -52,7 +52,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-**PIPELINE SETUP**
+<br> **PIPELINE SETUP** <br>
 <br> 1)Create a new job and select Multibranch Pipeline. <br>
 <br> <img width="1438" alt="Screenshot 2023-04-17 at 11 40 12 AM" src="https://user-images.githubusercontent.com/95365748/232398828-07c999eb-f818-44fa-89d3-852080530534.png"> <br>
 <br> 2)Add github url and save. <br>
@@ -63,7 +63,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-**EXPLANATION OF JENKINSFILE**
+<br> **EXPLANATION OF JENKINSFILE** <br>
 <br> * Stage 1: Jenkins will build new docker image with the latest changes made in github repo. <br>
 <br> * Stage 2: Jenkins will install kubectl on worker nodes to apply yaml files. <br>
 <br> * Stage 3: Jenkins will deploy the deployment.yaml file into k8s cluster's worker node. <br>
