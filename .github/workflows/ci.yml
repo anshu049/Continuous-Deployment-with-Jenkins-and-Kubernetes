@@ -15,3 +15,4 @@ jobs:
         run: |
           docker login -u anshuhtwt -p ${{ secrets.DOCKERHUB_TOKEN }}
           docker push anshuhtwt/demo-app:latest
+
