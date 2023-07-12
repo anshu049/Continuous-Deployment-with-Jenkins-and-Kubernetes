@@ -16,5 +16,6 @@ jobs:
     - name: Docker login
       run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
 
+
     # Add additional steps for building and pushing the Docker image
     # ...
