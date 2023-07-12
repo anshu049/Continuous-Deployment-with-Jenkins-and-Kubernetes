@@ -19,7 +19,3 @@ jobs:
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-
-
-    # Add additional steps for building and pushing the Docker image
-    # ...
