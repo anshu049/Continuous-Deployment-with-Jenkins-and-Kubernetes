@@ -13,6 +13,6 @@ jobs:
           docker build . -t anshuhtwt/demo-app:latest
       - name: publish
         run: |
-          docker login -u anshuhtwt ${{ secrets.DOCKERHUB_TOKEN }}
+          docker login -u anshuhtwt -p ${{ secrets.DOCKERHUB_TOKEN }}
           docker push anshuhtwt/demo-app:latest
 
