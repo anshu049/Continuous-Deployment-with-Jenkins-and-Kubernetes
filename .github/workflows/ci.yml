@@ -12,8 +12,11 @@ jobs:
         run: |
           docker build . -t anshuhtwt/demo-app:latest
       - name: publish
+        env:
+          DOCKERHUB_USERNAME: anshuhtwt
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
         run: |
-          echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u anshuhtwt --password-stdin
+          echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
           docker push anshuhtwt/demo-app:latest
 
 
