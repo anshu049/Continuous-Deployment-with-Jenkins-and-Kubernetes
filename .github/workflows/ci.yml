@@ -16,8 +16,5 @@ jobs:
           DOCKERHUB_USERNAME: anshuhtwt
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
         run: |
-          echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+          echo "${DOCKERHUB_PASSWORD}" | docker login -u "${DOCKERHUB_USERNAME}" --password-stdin
           docker push anshuhtwt/demo-app:latest
-
-
-
